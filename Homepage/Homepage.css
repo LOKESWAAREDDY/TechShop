@@ -1,0 +1,70 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.mainbody{
+  background-color:  rgb(25, 22, 22);
+}
+
+.Navbar{
+  height: 35px;
+  width: 100%;
+  background-color: rgb(25, 22, 22);
+  display: flex;
+  position: fixed;
+}
+.text{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: large;
+}
+
+.icons{
+  margin-left: 20px;
+  align-content: center;
+  display: flex;
+  margin-left: 870px;
+  color: aliceblue;
+}
+
+.para{
+  margin-left: 40px;
+  align-content: center;
+  color: aliceblue;
+}
+
+.icon1, .icon2, .icon3 {
+  align-content: center;
+  margin-left: 30px;
+}
+
+.hyper{
+  color: aliceblue;
+}
+
+
+.login {
+  display:none;
+  position: absolute;
+  top: 40px; 
+  left: 880px; 
+  width: 200px;
+  height: 100px;
+  background-color: rgb(25, 22, 22);
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+
+.icon3:hover + .login {
+  display: block;
+  position: absolute;
+}
+
+.icon3:hover {
+  cursor: pointer;
+}
